@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/noteListFragment">
+
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.cusaldev.noteapp.NoteListFragment"
+        android:label="Note List"
+        tools:layout="@layout/fragment_note_list">
+        <action
+            android:id="@+id/action_noteListFragment_to_noteFormFragment"
+            app:destination="@id/noteFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/noteFormFragment"
+        android:name="com.cusaldev.noteapp.NoteFormFragment"
+        android:label="Note Form"
+        tools:layout="@layout/fragment_note_form">
+        <argument
+            android:name="note"
+            app:argType="com.cusaldev.noteapp.Note"
+            app:nullable="true" />
+    </fragment>
+</navigation>

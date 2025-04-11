@@ -1,8 +1,10 @@
 package com.cusaldev.noteapp
+import java.io.Serializable
 
 data class Note(
-    var id: Int,
-    var title: String,
-    var content: String
-)
+    val id: Int,
+    val title: String,
+    val content: String
+) : Serializable
+
 

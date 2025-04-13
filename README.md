@@ -46,7 +46,7 @@ Note-App/
 │   │   ├── main/
 │   │   │   ├── java/com/example/noteapp/
 │   │   │   │   ├── ui/        # Fragments and UI logic 
-│   │   │   │   │                (NoteFragment, AddEditNoteFragment)
+│   │   │   │   │                (NoteFormFragment, NoteListFragment)
 │   │   │   │   ├── adapters/  # RecyclerView Adapter (NoteAdapter)
 │   │   │   │   ├── model/     # Note data model
 │   │   │   │   ├── viewmodel/ # NoteViewModel

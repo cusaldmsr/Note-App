@@ -44,7 +44,7 @@ Note-App/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/example/noteapp/
+│   │   │   ├── java/com/cusaldev/noteapp/
 │   │   │   │   ├── ui/        # Fragments and UI logic 
 │   │   │   │   │                (NoteFormFragment, NoteListFragment)
 │   │   │   │   ├── adapters/  # RecyclerView Adapter (NoteAdapter)
